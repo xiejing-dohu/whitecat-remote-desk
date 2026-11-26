@@ -1,0 +1,921 @@
+{
+  "thread": "01a21651-85a1-7600-8cad-3057430068dc",
+  "chat": "69d852f7-3aa7-5ad4-a1b5-0a97fdaf2b5b",
+  "job": "6e7e7884-1cd9-42ca-b050-c1cce0d875be",
+  "turn": "01a21664-6db8-7573-b3f2-2020cf933b3c",
+  "terminal_pid": 5704,
+  "before_drop": {
+    "phase": "before_drop",
+    "cursor": 447,
+    "visible_chars": 41,
+    "tools": 1,
+    "running_tools": 1,
+    "partial_final": false,
+    "status": "running",
+    "presence": "● 工作站在线 · 实时同步"
+  },
+  "offline": {
+    "phase": "reconnected",
+    "cursor": 447,
+    "visible_chars": 41,
+    "tools": 1,
+    "running_tools": 1,
+    "partial_final": false,
+    "status": "running",
+    "presence": "○ 已断线 · 本机缓存"
+  },
+  "backend_cursor_while_offline": 450,
+  "resumed_while_running": {
+    "phase": "reconnected",
+    "cursor": 452,
+    "visible_chars": 64,
+    "tools": 2,
+    "running_tools": 1,
+    "partial_final": false,
+    "status": "running",
+    "presence": "● 工作站在线 · 实时同步"
+  },
+  "partial_final_on_phone": {
+    "phase": "reconnected",
+    "cursor": 459,
+    "visible_chars": 99,
+    "tools": 3,
+    "running_tools": 0,
+    "partial_final": true,
+    "status": "running",
+    "presence": "● 工作站在线 · 实时同步"
+  },
+  "done": {
+    "phase": "reconnected",
+    "cursor": 525,
+    "visible_chars": 919,
+    "tools": 3,
+    "running_tools": 0,
+    "partial_final": false,
+    "status": "done",
+    "presence": "● 工作站在线 · 实时同步"
+  },
+  "observations": [
+    {
+      "phase": "before_drop",
+      "cursor": 440,
+      "visible_chars": 0,
+      "tools": 0,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "queued",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "before_drop",
+      "cursor": 441,
+      "visible_chars": 0,
+      "tools": 0,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "before_drop",
+      "cursor": 442,
+      "visible_chars": 0,
+      "tools": 0,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "before_drop",
+      "cursor": 443,
+      "visible_chars": 0,
+      "tools": 0,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "before_drop",
+      "cursor": 444,
+      "visible_chars": 19,
+      "tools": 0,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "before_drop",
+      "cursor": 445,
+      "visible_chars": 41,
+      "tools": 0,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "before_drop",
+      "cursor": 446,
+      "visible_chars": 41,
+      "tools": 0,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "before_drop",
+      "cursor": 447,
+      "visible_chars": 41,
+      "tools": 1,
+      "running_tools": 1,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 447,
+      "visible_chars": 41,
+      "tools": 1,
+      "running_tools": 1,
+      "partial_final": false,
+      "status": "running",
+      "presence": "○ 已断线 · 本机缓存"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 452,
+      "visible_chars": 64,
+      "tools": 2,
+      "running_tools": 1,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 453,
+      "visible_chars": 64,
+      "tools": 2,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 454,
+      "visible_chars": 66,
+      "tools": 2,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 455,
+      "visible_chars": 89,
+      "tools": 2,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 456,
+      "visible_chars": 91,
+      "tools": 2,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 457,
+      "visible_chars": 91,
+      "tools": 3,
+      "running_tools": 1,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 458,
+      "visible_chars": 91,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 459,
+      "visible_chars": 99,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 460,
+      "visible_chars": 126,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 461,
+      "visible_chars": 157,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 462,
+      "visible_chars": 173,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 463,
+      "visible_chars": 178,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 464,
+      "visible_chars": 179,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 465,
+      "visible_chars": 181,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 466,
+      "visible_chars": 196,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 467,
+      "visible_chars": 220,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 468,
+      "visible_chars": 221,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 469,
+      "visible_chars": 226,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 470,
+      "visible_chars": 231,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 471,
+      "visible_chars": 251,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 472,
+      "visible_chars": 256,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 473,
+      "visible_chars": 293,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 474,
+      "visible_chars": 326,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 475,
+      "visible_chars": 350,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 476,
+      "visible_chars": 378,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 477,
+      "visible_chars": 398,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 478,
+      "visible_chars": 415,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 479,
+      "visible_chars": 420,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 480,
+      "visible_chars": 430,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 481,
+      "visible_chars": 436,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 482,
+      "visible_chars": 446,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 483,
+      "visible_chars": 448,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 484,
+      "visible_chars": 452,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 485,
+      "visible_chars": 473,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 486,
+      "visible_chars": 477,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 487,
+      "visible_chars": 484,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 488,
+      "visible_chars": 502,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 489,
+      "visible_chars": 524,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 490,
+      "visible_chars": 540,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 491,
+      "visible_chars": 543,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 492,
+      "visible_chars": 558,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 493,
+      "visible_chars": 581,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 494,
+      "visible_chars": 589,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 495,
+      "visible_chars": 607,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 496,
+      "visible_chars": 610,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 497,
+      "visible_chars": 615,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 498,
+      "visible_chars": 627,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 499,
+      "visible_chars": 631,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 501,
+      "visible_chars": 659,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 502,
+      "visible_chars": 668,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 503,
+      "visible_chars": 682,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 504,
+      "visible_chars": 704,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 505,
+      "visible_chars": 728,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 506,
+      "visible_chars": 741,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 507,
+      "visible_chars": 743,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 508,
+      "visible_chars": 744,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 509,
+      "visible_chars": 766,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 510,
+      "visible_chars": 775,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 511,
+      "visible_chars": 786,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 512,
+      "visible_chars": 792,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 513,
+      "visible_chars": 803,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 514,
+      "visible_chars": 822,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 515,
+      "visible_chars": 831,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 516,
+      "visible_chars": 842,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 517,
+      "visible_chars": 851,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 518,
+      "visible_chars": 858,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 519,
+      "visible_chars": 881,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 520,
+      "visible_chars": 882,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 521,
+      "visible_chars": 887,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 522,
+      "visible_chars": 891,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 523,
+      "visible_chars": 919,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": true,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 524,
+      "visible_chars": 919,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "running",
+      "presence": "● 工作站在线 · 实时同步"
+    },
+    {
+      "phase": "reconnected",
+      "cursor": 525,
+      "visible_chars": 919,
+      "tools": 3,
+      "running_tools": 0,
+      "partial_final": false,
+      "status": "done",
+      "presence": "● 工作站在线 · 实时同步"
+    }
+  ],
+  "tools": [
+    {
+      "item": "exec-0b817fcf-ad78-4d1f-8900-571cbb0deca4",
+      "kind": "mcp",
+      "label": "audit_csv",
+      "status": "done",
+      "progress": 0,
+      "started_ms": 1795672017280,
+      "ended_ms": 1795672026282
+    },
+    {
+      "item": "exec-7c882579-c2c3-4852-bbfc-a7e7a4e221dd",
+      "kind": "mcp",
+      "label": "audit_csv",
+      "status": "done",
+      "progress": 0,
+      "started_ms": 1795672030817,
+      "ended_ms": 1795672039820
+    },
+    {
+      "item": "exec-17f45882-5d78-4e17-a63c-36c3d5679557",
+      "kind": "mcp",
+      "label": "audit_csv",
+      "status": "done",
+      "progress": 0,
+      "started_ms": 1795672044799,
+      "ended_ms": 1795672053802
+    }
+  ],
+  "matching_native_executions": 1,
+  "duplicate_submits": 2,
+  "answer_characters": 828,
+  "answer_sha256": "3514d742841e51cb13bf1bac43d382271d22234670c81e1b8b6bd92a50663eb4",
+  "android_projection": {
+    "turns": 6,
+    "revision": 244,
+    "projection": "213895afe87060760993f47fe30c0a3fd12a45b032aaad0a39955f715b20004e"
+  },
+  "partial_observations": 64,
+  "installed_apk_sha256": "50d90be828628ce4c468b6f5dbc7c137b2a27141f62491d70c2487c5b21918d1",
+  "apk_sha256": "50d90be828628ce4c468b6f5dbc7c137b2a27141f62491d70c2487c5b21918d1"
+}

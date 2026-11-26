@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f7f7f3"><link rel="icon" href="/cat.png"><link rel="stylesheet" href="/style.css"><title>白猫 · 远程工作台</title><script defer src="/app.js"></script></head>
+<body><div class="shell"><aside id="sidebar" aria-label="会话列表"><div class="brand"><img src="/cat.png" alt=""><strong>白猫工作台</strong><button id="close" class="mobile icon" aria-label="关闭会话列表">×</button></div><div class="executor-picker"><label for="executor">当前服务器的执行 Agent</label><select id="executor"><option value="default">Codex</option></select><button type="button" id="manage-executors" aria-label="服务器设置">设置</button></div><button id="new" class="new"><span>＋</span> 新建会话</button><h2>最近会话</h2><nav id="chats"></nav><div class="station"><span class="dot"></span><div><b>Codex 工作站</b><small class="presence">连接中</small></div></div></aside>
+<button id="shade" aria-label="关闭侧栏"></button><main><header><button id="menu" class="mobile icon" aria-label="打开会话列表">☰</button><span class="crumb">工作台 <i>/</i></span><strong id="title">新建会话</strong><span class="status"><span class="dot"></span><span class="presence">连接中</span></span></header>
+<div id="scroll"><div class="inner" id="content"></div></div>
+<footer><div class="footinner"><div id="alert" role="status"></div><button id="retry" hidden>按原请求重试</button><form id="composer"><label class="sr" for="prompt">任务或追问</label><textarea id="prompt" maxlength="10000" rows="2" placeholder="给 Codex 工作站发消息…"></textarea><div id="attachment" hidden><span id="filename"></span><button type="button" id="remove" aria-label="移除附件">×</button></div><div class="actions"><div><button type="button" id="attach" class="icon" aria-label="添加文本附件" title="添加文本附件">＋</button><input id="file" type="file" accept=".txt,.md,.csv,text/plain" hidden><span class="agent" id="executor-label">Codex</span></div><button id="send" type="submit" aria-label="发送任务">↑</button></div></form></div></footer></main></div><dialog id="agent-admin" aria-labelledby="admin-title">
+  <div class="admin-head"><h2 id="admin-title">服务器设置</h2><button id="admin-close" type="button" aria-label="关闭">×</button></div>
+  <ul id="executor-rows"></ul>
+  <form id="agent-form">
+    <h3>添加执行 Agent</h3>
+    <label for="agent-id">接入标识</label><input id="agent-id" required maxlength="48" autocomplete="off" placeholder="例如 docs">
+    <label for="agent-name">显示名称</label><input id="agent-name" required maxlength="64" placeholder="例如 文档助手">
+    <button type="submit" id="agent-save">生成接入配置</button>
+  </form>
+  <p id="admin-result" role="status"></p><code id="config-path" hidden></code>
+</dialog>
+</body></html>

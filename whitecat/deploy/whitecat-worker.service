@@ -1,0 +1,16 @@
+[Unit]
+Description=Whitecat Codex workstation
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+WorkingDirectory=%h/whitecat
+ExecStart=/usr/bin/python3 -B %h/whitecat/worker.py --config %h/.config/whitecat/station.json
+Restart=on-failure
+RestartSec=5
+UMask=0077
+
+[Install]
+WantedBy=default.target

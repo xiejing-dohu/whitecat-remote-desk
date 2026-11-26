@@ -1,0 +1,10 @@
+{
+  "paper": "-658968",
+  "font_px": "39.0",
+  "default_font_px": "30.0",
+  "choose": true,
+  "resume": true,
+  "negative_cases": "partial index, changed instance, native history recovery, proxy 404, HTTP 503",
+  "remote_deletion": true,
+  "migration": "encrypted offline transfer preserves deletion, source, transcript and draft; receiver local hide wins"
+}

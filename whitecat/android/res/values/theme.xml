@@ -1,0 +1,10 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/orca_blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/orca_canvas</item>
+        <item name="android:navigationBarColor">@color/orca_canvas</item>
+        <item name="android:windowBackground">@color/orca_canvas</item>
+    </style>
+</resources>

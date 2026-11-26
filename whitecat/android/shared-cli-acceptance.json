@@ -1,0 +1,50 @@
+{
+  "native_thread": "01a21610-7595-7631-bc39-dfa000244581",
+  "chat": "f8f77235-99b4-522a-bcb4-c093553f1056",
+  "terminal_pid": 43904,
+  "submit_gap_ms": 80,
+  "offline_cache_turns": 4,
+  "answers": [
+    "基数=41",
+    "原生互通=42",
+    "PHONE=82",
+    "TERM=43",
+    "OFFLINE=46",
+    "MERGED=79",
+    "BOTH_TERM=123",
+    "BOTH_PHONE=39"
+  ],
+  "native_turns": [
+    "01a21610-77a2-7083-8ea0-b7b5a937d738",
+    "01a21612-219e-7303-8755-699fee47a886",
+    "01a21618-0a16-7120-a2de-e866907ad248",
+    "01a21618-ddde-7102-9559-3f83f342b073",
+    "01a21619-289a-7e93-9226-6229cd089c0c",
+    "01a21619-47a1-76f2-82a5-9b9eadaa93ba",
+    "01a2161a-b232-7550-9cac-f2afdaa4c468",
+    "01a2161a-c131-7ec2-9a58-0eea72958f4d"
+  ],
+  "native_model_turns": 8,
+  "same_process_all_stages": true,
+  "phone_cache": {
+    "turns": 8,
+    "revision": 197,
+    "projection": "1e81b94c62aec788a0e8175eb2eb612662b675fdf69f4fda7aac385911ef51e2"
+  },
+  "phone_reconnect_automatic": true,
+  "phone_command_replays": 6,
+  "duplicate_model_turns": 0,
+  "apk_sha256": "dfeb823a23dad93d77eb63c426772caa8c9c31bb73611590b52aecf8b7f4f3d1",
+  "overlap_submit_gap_ms": 463,
+  "overlap_utc_epoch": {
+    "terminal_started": 1795667178.223,
+    "phone_accepted": 1795667178.5507238,
+    "phone_entered_native_queue": 1795667178.9355717,
+    "terminal_completed": 1795667181.871
+  },
+  "installed_apk_sha256": "dfeb823a23dad93d77eb63c426772caa8c9c31bb73611590b52aecf8b7f4f3d1",
+  "whitecat_service_restart_preserved_history": true,
+  "workstation": "14d",
+  "device_type": "Android 11 emulator",
+  "terminal_and_phone_capture": "17d-共享终端与模拟器.png"
+}

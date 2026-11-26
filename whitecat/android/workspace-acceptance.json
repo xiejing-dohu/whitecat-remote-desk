@@ -1,0 +1,47 @@
+{
+  "checkpoint": "20d",
+  "checked_at": "2026-11-26T15:09:41+08:00",
+  "apk_sha256": "84c166ea9777581107e6fd0251d290a752447c5e0226830b168675ce490b6a69",
+  "devices": [
+    {
+      "serial": "127.0.0.1:5581",
+      "android": "11",
+      "version": "0.7.0",
+      "apk_sha256": "84c166ea9777581107e6fd0251d290a752447c5e0226830b168675ce490b6a69"
+    },
+    {
+      "serial": "127.0.0.1:5583",
+      "android": "11",
+      "version": "0.7.0",
+      "apk_sha256": "84c166ea9777581107e6fd0251d290a752447c5e0226830b168675ce490b6a69"
+    }
+  ],
+  "agent_id": "6d2842e3-49b5-4628-9da0-1fdd61635120",
+  "chat": "eb40a804-b28f-44e7-a072-05d8229e062c",
+  "jobs": [
+    "b56c9b89-129f-47c4-b555-2dfca4b21e41",
+    "057de0ee-b4d3-4f8a-bd7f-e09eb61bbad6"
+  ],
+  "codex_thread": "01a216ac-ae5e-7671-98ba-e7594aa9bc9c",
+  "codex_rollout_closed_turns": [
+    {
+      "turn": "01a216ac-b747-7ed2-ac0b-03b47714f45e",
+      "answer": "CAT20_C04035=42"
+    },
+    {
+      "turn": "01a216af-9821-7e50-a50a-d0a559bd0d0d",
+      "answer": "CAT20_C04035=43"
+    }
+  ],
+  "checks": {
+    "agent_created_and_edited_on_phone": true,
+    "role_archived_after_first_turn": true,
+    "same_role_and_native_thread_after_archive": true,
+    "source_delete_cancel_preserved_data": true,
+    "source_confirm_cleared_local_history_and_draft": true,
+    "source_hidden_after_restart_and_refresh": true,
+    "same_conversation_continued_from_receiver_with_imported_draft": true,
+    "four_android_tabs_text_centered": true
+  },
+  "qr_report": "migration-devices-acceptance.json"
+}

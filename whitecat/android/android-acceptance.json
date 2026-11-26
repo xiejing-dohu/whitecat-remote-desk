@@ -1,0 +1,40 @@
+{
+  "device": "Android SDK built for x86_64",
+  "android": "11",
+  "api": "30",
+  "emulator": true,
+  "package": "dev.whitecat.desk",
+  "apk_sha256": "6e085646cb8c28c8ece7a07a14461ec09abef0d92b4b8d000738003c17d397c8",
+  "chat": "5d13cd2b-acf4-43c3-bfc1-aaa1fd5a3ebc",
+  "fault": "reset after reading committed 201, remove ADB reverse, disable Wi-Fi and mobile data",
+  "app_force_stops_before_recovery": 2,
+  "offline_retry_reached_backend": false,
+  "statuses": [
+    201,
+    200,
+    201
+  ],
+  "original_key_and_payload_preserved": true,
+  "runs": [
+    {
+      "job": "13686d92-c89e-4e0d-8f38-2acec54fab9b",
+      "answer": "合计=73",
+      "events": {
+        "accepted": 1,
+        "claimed": 1,
+        "spawn": 1,
+        "finished": 1
+      }
+    },
+    {
+      "job": "06f33891-b56e-447f-8c62-fe01a006bba4",
+      "answer": "复核=151",
+      "events": {
+        "accepted": 1,
+        "claimed": 1,
+        "spawn": 1,
+        "finished": 1
+      }
+    }
+  ]
+}

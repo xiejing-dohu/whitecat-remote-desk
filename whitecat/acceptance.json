@@ -1,0 +1,22 @@
+{
+  "chat": "676133ba-35c8-4b2f-b11b-e32609f17fbd",
+  "first_job": "7afc1efc-ceba-4a8f-8840-c857c6b18012",
+  "first_answer": "rows=3 total=97",
+  "claim_count": 1,
+  "cli_starts": 1,
+  "initial_status": 201,
+  "browser_failure": "connectionreset",
+  "reload_replay": 200,
+  "parallel_replays": 2,
+  "changed_payload": 409,
+  "result_sha256": "fd2e51f103b0fc733a23ca37474f03ca903c1808ec754c2b2d8fd60511453fc7",
+  "follow_up_job": "201ae403-7bae-4195-a796-b0af2f9d2935",
+  "follow_up_answer": "105",
+  "widths": [
+    360,
+    390,
+    1280
+  ],
+  "unsigned_worker": 403,
+  "cross_origin": 403
+}

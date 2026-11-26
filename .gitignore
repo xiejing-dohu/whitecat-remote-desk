@@ -1,0 +1,37 @@
+# Local runtime state, pairing material and signing keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.sqlite*
+*.db
+*.db-wal
+*.db-shm
+*.log
+station.json
+station/
+executors/
+signing/
+spool/
+password
+__pycache__/
+*.py[cod]
+.venv/
+local.properties
+.gradle/
+.DS_Store
+Thumbs.db
+
+# Local operations, terminal captures and historical integration runs
+/操作记录.md
+/M0-01/
+/whitecat/android/*.png
+/whitecat/android/历史安装包/
+/whitecat/android/test/*.apk
+/视觉稿/*模拟器实录.png
+!/视觉稿/首页与独立设置-模拟器实录.png

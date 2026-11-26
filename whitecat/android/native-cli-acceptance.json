@@ -1,0 +1,53 @@
+{
+  "device": "Android SDK built for x86_64",
+  "chat": "ed0cb097-7886-5e91-869d-6e31b2f5bac9",
+  "native_thread": "01a215f7-6f26-77c3-9b8c-a055c4859c32",
+  "native_originator": "codex-tui",
+  "answers": [
+    "起点=37",
+    "手机=74",
+    "终端=79",
+    "合流=76"
+  ],
+  "daemon_cli_launches_per_turn": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "pre_disconnect": {
+    "turns": 2,
+    "revision": 97,
+    "projection": "b0f2463e8347befd9209482488f1388addc987b9c913b3618822abc67127d805"
+  },
+  "offline_after_remote_turn": {
+    "turns": 2,
+    "revision": 97,
+    "projection": "b0f2463e8347befd9209482488f1388addc987b9c913b3618822abc67127d805"
+  },
+  "after_reconnect": {
+    "turns": 4,
+    "revision": 105,
+    "projection": "01c36829a12326e36a3f32a7eaa75d9cce6a893ceb9bd9c20922792b5fe42c24"
+  },
+  "two_import_replays_same_job": "264c7870-a903-5e1f-8f17-cdabbfd9cd8e",
+  "checkpoint_after_duplicate_unchanged": true,
+  "same_thread_all_four": true,
+  "apk_sha256": "e0b00f2cbd072a937e512785000cd2cf7ffc35c3590d3526825948ed2d965e2e",
+  "native_turn_ids": [
+    "01a215f7-7160-7c60-8b2d-d271e374aebe",
+    "01a215f8-7fe2-7281-88cc-1e4be9bd9792",
+    "01a215f8-b111-7f50-8881-eceaba259137",
+    "01a215f9-bda6-7541-b003-25a5b7cb8814"
+  ],
+  "native_transcript_matches_phone": true,
+  "phone_command_replay_same_job": "15630f6b-d4d5-4c24-b29b-075a30ed41c3",
+  "archive_import_check": {
+    "threads": 7,
+    "closed_turns": 59,
+    "missing_closed_turns": 0,
+    "unclosed_turns_observed": 1
+  },
+  "restart_preserved_projection": true,
+  "installed_apk_sha256": "e0b00f2cbd072a937e512785000cd2cf7ffc35c3590d3526825948ed2d965e2e"
+}

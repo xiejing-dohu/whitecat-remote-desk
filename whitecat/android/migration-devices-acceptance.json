@@ -1,0 +1,50 @@
+{
+  "verified_at_utc": "2026-11-26T07:08:12+00:00",
+  "sender": {
+    "serial": "127.0.0.1:5581",
+    "android": "11",
+    "sdk": 30,
+    "app_version": "0.7.0"
+  },
+  "receiver": {
+    "serial": "127.0.0.1:5583",
+    "android": "11",
+    "sdk": 30,
+    "app_version": "0.7.0"
+  },
+  "chat": "eb40a804-b28f-44e7-a072-05d8229e062c",
+  "export": {
+    "history_sha256": "e20ad968539543e9d717cf6afadfc65671ffbb5dc33d0d4dbc357b521263b3ca",
+    "draft_sha256": "1f46aaafa78dbce0b73431a97fddabf8888b7ff69d9f0bdd763f52505573fb74",
+    "turns": 1,
+    "revision": 255,
+    "cursor": 540
+  },
+  "import": {
+    "history_sha256": "e20ad968539543e9d717cf6afadfc65671ffbb5dc33d0d4dbc357b521263b3ca",
+    "draft_sha256": "1f46aaafa78dbce0b73431a97fddabf8888b7ff69d9f0bdd763f52505573fb74",
+    "turns": 1,
+    "revision": 255,
+    "cursor": 540,
+    "index_sha256": "0cd1b4ea5a6beba0f2038685aa05749b9ebd7324c5e36140ee304785cb57fd84",
+    "first_picker": "Instrumentation ACTION_OPEN_DOCUMENT result with owned MediaStore content URI",
+    "repeat_picker": "Instrumentation ACTION_OPEN_DOCUMENT result with owned MediaStore content URI"
+  },
+  "scope": {
+    "current_chat_only": true,
+    "history": true,
+    "drafts": true,
+    "settings": false
+  },
+  "scan_path": "Sender QR ImageView PNG -> ADB in memory -> receiver MediaStore Downloads -> picker paths recorded in import.first_picker and import.repeat_picker -> MigrationScanner image decoder (ZXing), twice",
+  "checks": {
+    "cache_and_draft_absent_before_confirmation": true,
+    "preview_one_index_one_history_one_draft": true,
+    "local_history_and_draft_match_before_opening_chat": true,
+    "receiver_pairing_preserved": true,
+    "workstation_acknowledged": true,
+    "same_qr_reported_already_imported": true,
+    "repeat_preserved_index_history_and_draft": true,
+    "temporary_qr_copies_removed": true
+  }
+}

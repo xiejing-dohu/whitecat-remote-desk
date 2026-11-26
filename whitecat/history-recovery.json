@@ -1,0 +1,9 @@
+{
+  "seeded_completed_turns": 9,
+  "other_chat_excluded": true,
+  "failed_turn_excluded": true,
+  "missing_native_history": true,
+  "response_recovered_first_marker": true,
+  "codex_starts": 1,
+  "mode": "rebuild"
+}

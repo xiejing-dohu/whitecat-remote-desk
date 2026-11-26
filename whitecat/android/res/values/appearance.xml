@@ -1,0 +1,72 @@
+<resources>
+    <!-- The same theme supplies programmatic content colors and the framework widget theme. -->
+    <attr name="deskInk" format="color" />
+    <attr name="deskMuted" format="color" />
+    <attr name="deskTile" format="color" />
+    <attr name="deskSuccess" format="color" />
+    <attr name="deskSurface" format="color" />
+    <attr name="deskRail" format="color" />
+    <attr name="deskEdge" format="color" />
+    <attr name="deskSecondary" format="color" />
+    <attr name="deskAction" format="color" />
+    <attr name="deskWarning" format="color" />
+    <attr name="deskFailure" format="color" />
+
+    <color name="ocean_canvas">#183041</color>
+    <color name="paper_canvas">#F5F1E8</color>
+    <color name="paper_ink">#302B25</color>
+
+    <style name="ObsidianTheme" parent="@style/AppTheme">
+        <item name="deskInk">@color/orca_ink</item>
+        <item name="deskMuted">@color/orca_muted</item>
+        <item name="deskTile">@color/orca_tile</item>
+        <item name="deskSuccess">@color/orca_green</item>
+        <item name="deskSurface">@color/orca_panel</item>
+        <item name="deskRail">@color/orca_rail</item>
+        <item name="deskEdge">@color/orca_line</item>
+        <item name="deskSecondary">@color/orca_secondary</item>
+        <item name="deskAction">@color/orca_blue</item>
+        <item name="deskWarning">@color/orca_amber</item>
+        <item name="deskFailure">@color/orca_fail</item>
+    </style>
+
+    <style name="OceanTheme" parent="@style/AppTheme">
+        <item name="android:windowBackground">@color/ocean_canvas</item>
+        <item name="android:statusBarColor">@color/ocean_canvas</item>
+        <item name="android:navigationBarColor">@color/ocean_canvas</item>
+        <item name="android:colorAccent">#A1D7FF</item>
+        <item name="deskInk">#F1F8FE</item>
+        <item name="deskMuted">#A9C2D1</item>
+        <item name="deskTile">#324E60</item>
+        <item name="deskSuccess">#93EBBE</item>
+        <item name="deskSurface">#203B4D</item>
+        <item name="deskRail">#274455</item>
+        <item name="deskEdge">#57758A</item>
+        <item name="deskSecondary">#C2D6E1</item>
+        <item name="deskAction">#346689</item>
+        <item name="deskWarning">#F4CC72</item>
+        <item name="deskFailure">#FFADB0</item>
+    </style>
+
+    <style name="PaperTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@color/paper_canvas</item>
+        <item name="android:statusBarColor">@color/paper_canvas</item>
+        <item name="android:navigationBarColor">@color/paper_canvas</item>
+        <item name="android:colorAccent">#285981</item>
+        <item name="deskInk">@color/paper_ink</item>
+        <item name="deskMuted">#625A4F</item>
+        <item name="deskTile">#EAE2D3</item>
+        <item name="deskSuccess">#216646</item>
+        <item name="deskSurface">#FFFBF3</item>
+        <item name="deskRail">#EFE8DC</item>
+        <item name="deskEdge">#B5A995</item>
+        <item name="deskSecondary">#52493F</item>
+        <item name="deskAction">#A6C7E6</item>
+        <item name="deskWarning">#754C08</item>
+        <item name="deskFailure">#9A3739</item>
+    </style>
+</resources>

@@ -1,0 +1,34 @@
+{
+  "chat": "5d13cd2b-acf4-43c3-bfc1-aaa1fd5a3ebc",
+  "cli_thread": "01a215d8-b65a-7730-b840-ac28b9b7a5af",
+  "first_projection": {
+    "turns": 2,
+    "revision": 49,
+    "projection": "53b007e9a0aabd2cd43d03572e682287ec1eb647ecb8c037b8201dbb18629fe3"
+  },
+  "before_pid": 14060,
+  "remote_command": "86cfe5bd-4401-4f07-a685-1ec8cd472b84",
+  "apk_sha256": "6e085646cb8c28c8ece7a07a14461ec09abef0d92b4b8d000738003c17d397c8",
+  "after_pid": 51092,
+  "offline_projection": {
+    "turns": 2,
+    "revision": 49,
+    "projection": "53b007e9a0aabd2cd43d03572e682287ec1eb647ecb8c037b8201dbb18629fe3"
+  },
+  "final_projection": {
+    "turns": 4,
+    "revision": 61,
+    "projection": "2b06f26f190682166fdcb3eb1f7814c4fc955b0f05353aa9e88069d30925e55f"
+  },
+  "modes": [
+    "new",
+    "resume",
+    "resume",
+    "resume"
+  ],
+  "final_head": "4d20099e-dd18-459d-9d3b-d070f3edc3d5",
+  "remote_answer": "远端=141",
+  "phone_answer": "同步=142",
+  "draft_survived": true,
+  "activity": "Android 11 API 30 / 14d Windows station"
+}

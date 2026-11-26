@@ -1,0 +1,25 @@
+{
+  "chat": "0e183384-488c-47ef-8bff-0a60f9160cb5",
+  "first_job": "2c3c7a7d-f32c-4f57-82da-0eca17cc1186",
+  "first_answer": "rows=3 total=97",
+  "claim_count": 1,
+  "cli_starts": 1,
+  "initial_status": 201,
+  "browser_failure": "connectionreset",
+  "reload_replay": 200,
+  "parallel_replays": 2,
+  "changed_payload": 409,
+  "result_sha256": "fd2e51f103b0fc733a23ca37474f03ca903c1808ec754c2b2d8fd60511453fc7",
+  "follow_up_job": "b08e1bda-511b-4678-966f-acb072ace224",
+  "follow_up_answer": "105",
+  "widths": [
+    360,
+    390,
+    1280
+  ],
+  "unsigned_worker": 403,
+  "cross_origin": 403,
+  "server_os": "WSL2 Ubuntu 22.04",
+  "worker_os": "Windows",
+  "transport": "TCP via WSL localhost forwarding"
+}

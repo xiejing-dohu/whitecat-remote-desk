@@ -1,0 +1,7 @@
+{
+  "server": "http://127.0.0.1:18742",
+  "key_file": "worker.key",
+  "spool": "station",
+  "name": "白猫 · Codex 工作站",
+  "timeout": 300
+}
